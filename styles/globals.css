@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next,
+html,
+body {
+  height: 100%;
+}
+
+.show-notes p {
+  margin-bottom: 8px;
+}
+
+.show-notes br {
+  display: none;
+}
+
+.show-notes img {
+  line-height: 0;
+  margin: 0 auto;
+}

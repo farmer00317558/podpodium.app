@@ -1,0 +1,16 @@
+[Unit]
+Description="Podium WebApp Service"
+After=network.target
+
+[Service]
+User=work
+Group=work
+Environment="PODIUM_API_BASE_URL=http://localhost:8080/api/v1"
+WorkingDirectory=/home/work/podium-web
+ExecStart=/home/work/.volta/bin/yarn start -p 8081
+StandardOutput=journal+console
+StandardError=journal+console
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

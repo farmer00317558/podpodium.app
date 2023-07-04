@@ -1,0 +1,53 @@
+{
+  "name": "podium-web",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "PODIUM_API_BASE_URL=https://www.lingjiangtai.com/api/v1 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "s2t": "node ./api-gen.js"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.1",
+    "@mdx-js/loader": "^2.1.5",
+    "@mdx-js/react": "^2.1.5",
+    "@next/mdx": "^13.0.5",
+    "@podpodium/common": "^1.0.0",
+    "axios": "^1.4.0",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.22.1",
+    "next": "12",
+    "nprogress": "^0.2.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^4.10.1",
+    "react-spinners": "^0.13.8",
+    "react-swipeable": "^6.1.2",
+    "recoil": "^0.3.1",
+    "rehype-img-size": "^1.0.1",
+    "remark-gfm": "^3.0.1",
+    "sharp": "^0.31.2",
+    "string-strip-html": "^13.4.1",
+    "tailwindcss": "^2.1.4",
+    "use-http": "^1.0.20"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7",
+    "@types/node": "^20.3.1",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "17.0.9",
+    "@types/sharp": "^0",
+    "@types/wicg-mediasession": "^1.1.2",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.1.0",
+    "postcss": "^8.3.0",
+    "typescript": "^4.9.3"
+  },
+  "packageManager": "yarn@3.4.1"
+}
