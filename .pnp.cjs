@@ -1200,7 +1200,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["autoprefixer", "virtual:bf51bf75d417c8442dc3770a53a6b7d5de2338a3ca1bcb5311b3cfc5bd9318d99437176610103b6d33b5a139464fb2312d86b5adf7f41fccecdc501fda3b7624#npm:10.2.6"],\
             ["@types/postcss", null],\
             ["browserslist", "npm:4.16.6"],\
-            ["caniuse-lite", "npm:1.0.30001434::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001434.tgz"],\
+            ["caniuse-lite", "npm:1.0.30001512::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001512.tgz"],\
             ["colorette", "npm:1.2.2"],\
             ["fraction.js", "npm:4.1.1"],\
             ["normalize-range", "npm:0.1.2"],\
@@ -1336,7 +1336,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/browserslist-npm-4.16.6-a20cef1ca7-3dffc86892.zip/node_modules/browserslist/",\
           "packageDependencies": [\
             ["browserslist", "npm:4.16.6"],\
-            ["caniuse-lite", "npm:1.0.30001434::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001434.tgz"],\
+            ["caniuse-lite", "npm:1.0.30001512::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001512.tgz"],\
             ["colorette", "npm:1.2.2"],\
             ["electron-to-chromium", "npm:1.3.749"],\
             ["escalade", "npm:3.1.1"],\
@@ -1421,10 +1421,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["caniuse-lite", [\
-        ["npm:1.0.30001434::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001434.tgz", {\
-          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001434-49c33de747-7c9d2641e8.zip/node_modules/caniuse-lite/",\
+        ["npm:1.0.30001512::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001512.tgz", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001512-12ed1a076a-18432eecfa.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
-            ["caniuse-lite", "npm:1.0.30001434::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001434.tgz"]\
+            ["caniuse-lite", "npm:1.0.30001512::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001512.tgz"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4980,7 +4980,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.9"],\
             ["@types/react-dom", null],\
             ["@types/sass", null],\
-            ["caniuse-lite", "npm:1.0.30001434::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001434.tgz"],\
+            ["caniuse-lite", "npm:1.0.30001512::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcaniuse-lite%2F-%2Fcaniuse-lite-1.0.30001512.tgz"],\
             ["fibers", null],\
             ["node-sass", null],\
             ["postcss", "npm:8.4.14::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fpostcss%2F-%2Fpostcss-8.4.14.tgz"],\
