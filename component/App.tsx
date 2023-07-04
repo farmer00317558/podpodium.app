@@ -9,6 +9,7 @@ import Nav from './Nav';
 import classNames from 'classnames';
 import { useRouter } from 'next/router';
 import { EpisodeData, PodcastData } from '@podpodium/common/lib/user-data-manager/v2';
+import mixpanel from 'mixpanel-browser';
 
 export function App({ Component, pageProps }: AppProps) {
   const playerRef = useRef<IPlayer>(null);
@@ -48,6 +49,11 @@ export function App({ Component, pageProps }: AppProps) {
 
   const handlePlay = useCallback((e: EpisodeData, p?: PodcastData) => {
     setEp(e);
+    mixpanel.track('Play Episode', {
+      title: e.title,
+      url: e.url,
+      podcast: e.podcast,
+    });
     playerRef.current?.play(e, p);
   }, []);
 

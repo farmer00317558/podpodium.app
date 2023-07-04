@@ -12,6 +12,7 @@ import Head from 'next/head';
 import Markdown, { components } from '../component/Markdown';
 import { MDXProvider } from '@mdx-js/react';
 import { globalFeedConfig } from '@podpodium/common';
+import mixpanel from 'mixpanel-browser';
 
 nprogress.configure({ showSpinner: false });
 
@@ -28,6 +29,17 @@ function MyApp(appProps: AppProps<{ global: boolean }>) {
   const { Component, pageProps, ...otherAppProps } = appProps;
   const isGlobal = !!pageProps.global;
   const isHelp = router.pathname.startsWith('/help');
+
+  useEffect(() => {
+    mixpanel.init('f183f16567b67fa340089ac70bb8edca', {
+      debug: true,
+      persistence: 'localStorage',
+    });
+  }, []);
+
+  useEffect(() => {
+    mixpanel.track_pageview();
+  }, [router.pathname, router.query]);
 
   // 页面加载提示条
   useEffect(() => {
@@ -46,13 +58,6 @@ function MyApp(appProps: AppProps<{ global: boolean }>) {
       router.events.off('routeChangeComplete', handleRCC);
     };
   }, [router.events]);
-
-  const script = `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-JVLKKTV7H4');
-  `;
 
   let content = null;
   if (isGlobal) {
@@ -75,9 +80,6 @@ function MyApp(appProps: AppProps<{ global: boolean }>) {
         <title>PodPodium - 一个更自由、更关注用户隐私的播客平台</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/favicon.ico" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JVLKKTV7H4"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JVLKKTV7H4"></script>
-        <script dangerouslySetInnerHTML={{ __html: script }}></script>
       </Head>
       {content}
     </RecoilRoot>

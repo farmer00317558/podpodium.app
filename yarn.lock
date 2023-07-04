@@ -461,6 +461,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/mixpanel-browser@npm:^2":
+  version: 2.47.0
+  resolution: "@types/mixpanel-browser@npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"
+  checksum: 599b22e3565be975e9335fe179d863cda4154b193a2583aae5cb14b02fee34f4b6e30d52a554183558c9bc273757a1e71c4a7eb5cd74bf769b692cfcf2b69d96
+  languageName: node
+  linkType: hard
+
 "@types/ms@npm:*":
   version: 0.7.31
   resolution: "@types/ms@npm:0.7.31::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fms%2F-%2Fms-0.7.31.tgz"
@@ -4020,6 +4027,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"mixpanel-browser@npm:^2.47.0":
+  version: 2.47.0
+  resolution: "mixpanel-browser@npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"
+  checksum: f44e0e0ac70b3772ed1be7c826d3cb0ffbf2dda35e6b927a3f7167795283745ae16573ae6ba303238bf776e3a5ed72c98c3c3f97e2a3c72bcbada15b956e9e9d
+  languageName: node
+  linkType: hard
+
 "mkdirp-classic@npm:^0.5.2, mkdirp-classic@npm:^0.5.3":
   version: 0.5.3
   resolution: "mkdirp-classic@npm:0.5.3::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fmkdirp-classic%2F-%2Fmkdirp-classic-0.5.3.tgz"
@@ -4618,6 +4632,7 @@ fsevents@~2.3.1:
     "@next/mdx": ^13.0.5
     "@podpodium/common": ^1.0.0
     "@types/eslint": ^7
+    "@types/mixpanel-browser": ^2
     "@types/node": ^20.3.1
     "@types/nprogress": ^0.2.0
     "@types/react": 17.0.9
@@ -4629,6 +4644,7 @@ fsevents@~2.3.1:
     date-fns: ^2.22.1
     eslint: ^7.32.0
     eslint-config-next: ^11.1.0
+    mixpanel-browser: ^2.47.0
     next: 12
     nprogress: ^0.2.0
     postcss: ^8.3.0

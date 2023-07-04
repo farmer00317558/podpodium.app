@@ -34,6 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@next/mdx", "virtual:bf51bf75d417c8442dc3770a53a6b7d5de2338a3ca1bcb5311b3cfc5bd9318d99437176610103b6d33b5a139464fb2312d86b5adf7f41fccecdc501fda3b7624#npm:13.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40next%2Fmdx%2F-%2Fmdx-13.0.5.tgz"],\
             ["@podpodium/common", "npm:1.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40podpodium%2Fcommon%2F-%2Fcommon-1.0.0.tgz"],\
             ["@types/eslint", "npm:7.28.0"],\
+            ["@types/mixpanel-browser", "npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"],\
             ["@types/node", "npm:20.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2F-%2Fnode-20.3.1.tgz"],\
             ["@types/nprogress", "npm:0.2.0"],\
             ["@types/react", "npm:17.0.9"],\
@@ -45,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["date-fns", "npm:2.22.1"],\
             ["eslint", "npm:7.32.0"],\
             ["eslint-config-next", "virtual:bf51bf75d417c8442dc3770a53a6b7d5de2338a3ca1bcb5311b3cfc5bd9318d99437176610103b6d33b5a139464fb2312d86b5adf7f41fccecdc501fda3b7624#npm:11.1.0"],\
+            ["mixpanel-browser", "npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"],\
             ["next", "virtual:bf51bf75d417c8442dc3770a53a6b7d5de2338a3ca1bcb5311b3cfc5bd9318d99437176610103b6d33b5a139464fb2312d86b5adf7f41fccecdc501fda3b7624#npm:12.3.4::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fnext%2F-%2Fnext-12.3.4.tgz"],\
             ["nprogress", "npm:0.2.0"],\
             ["postcss", "npm:8.3.0"],\
@@ -660,6 +662,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-mdx-npm-2.0.3-689a2fa005-41deb51c29.zip/node_modules/@types/mdx/",\
           "packageDependencies": [\
             ["@types/mdx", "npm:2.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fmdx%2F-%2Fmdx-2.0.3.tgz"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/mixpanel-browser", [\
+        ["npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz", {\
+          "packageLocation": "./.yarn/cache/@types-mixpanel-browser-npm-2.47.0-8ea18454c8-599b22e356.zip/node_modules/@types/mixpanel-browser/",\
+          "packageDependencies": [\
+            ["@types/mixpanel-browser", "npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4855,6 +4866,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["mixpanel-browser", [\
+        ["npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz", {\
+          "packageLocation": "./.yarn/cache/mixpanel-browser-npm-2.47.0-c577a9012f-f44e0e0ac7.zip/node_modules/mixpanel-browser/",\
+          "packageDependencies": [\
+            ["mixpanel-browser", "npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["mkdirp", [\
         ["npm:1.0.4", {\
           "packageLocation": "./.yarn/cache/mkdirp-npm-1.0.4-37f6ef56b9-a96865108c.zip/node_modules/mkdirp/",\
@@ -5516,6 +5536,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@next/mdx", "virtual:bf51bf75d417c8442dc3770a53a6b7d5de2338a3ca1bcb5311b3cfc5bd9318d99437176610103b6d33b5a139464fb2312d86b5adf7f41fccecdc501fda3b7624#npm:13.0.5::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40next%2Fmdx%2F-%2Fmdx-13.0.5.tgz"],\
             ["@podpodium/common", "npm:1.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40podpodium%2Fcommon%2F-%2Fcommon-1.0.0.tgz"],\
             ["@types/eslint", "npm:7.28.0"],\
+            ["@types/mixpanel-browser", "npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"],\
             ["@types/node", "npm:20.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fnode%2F-%2Fnode-20.3.1.tgz"],\
             ["@types/nprogress", "npm:0.2.0"],\
             ["@types/react", "npm:17.0.9"],\
@@ -5527,6 +5548,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["date-fns", "npm:2.22.1"],\
             ["eslint", "npm:7.32.0"],\
             ["eslint-config-next", "virtual:bf51bf75d417c8442dc3770a53a6b7d5de2338a3ca1bcb5311b3cfc5bd9318d99437176610103b6d33b5a139464fb2312d86b5adf7f41fccecdc501fda3b7624#npm:11.1.0"],\
+            ["mixpanel-browser", "npm:2.47.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmixpanel-browser%2F-%2Fmixpanel-browser-2.47.0.tgz"],\
             ["next", "virtual:bf51bf75d417c8442dc3770a53a6b7d5de2338a3ca1bcb5311b3cfc5bd9318d99437176610103b6d33b5a139464fb2312d86b5adf7f41fccecdc501fda3b7624#npm:12.3.4::__archiveUrl=https%3A%2F%2Fregistry.npmmirror.com%2Fnext%2F-%2Fnext-12.3.4.tgz"],\
             ["nprogress", "npm:0.2.0"],\
             ["postcss", "npm:8.3.0"],\

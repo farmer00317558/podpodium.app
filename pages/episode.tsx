@@ -12,6 +12,7 @@ import Button from '../component/Button';
 import Download from '../component/icons/Download';
 import { useRecoilState } from 'recoil';
 import { playlist } from '../state';
+import mixpanel from 'mixpanel-browser';
 
 interface IProps {
   rss: string;
