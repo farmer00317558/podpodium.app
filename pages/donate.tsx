@@ -32,10 +32,10 @@ export default function Donate() {
             <a
               className="text-blue-500"
               target="_blank"
-              href="https://twitter.com/Farmer00317558"
+              href="https://twitter.com/FarmerSun2023"
               rel="noreferrer"
             >
-              @Farmer00317558
+              @FarmerSun2023
             </a>
           </p>
         </div>
